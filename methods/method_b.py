@@ -1,7 +1,7 @@
 import numpy as np
 
 class WeightedFilter:
-    def __init__(self, lidar_data, max_distance=10.0, min_weight=0.5):
+    def __init__(self, lidar_data, max_distance=3.45, min_weight=0.5):
         self.lidar_data = lidar_data
         self.max_distance = max_distance
         self.min_weight = min_weight
