@@ -45,6 +45,7 @@
 
 ```text
 SLAM_BENCHMARK/
+├── launch/                  # 🗺️ Запуск симуляции мира
 ├── maps/                    # 🗺️ Сохранённые .pgm-карты
 ├── logs/                    # 📝 Логи CPU/RAM и графики PNG
 ├── methods/                 # 🔧 Реализация методов A–E
